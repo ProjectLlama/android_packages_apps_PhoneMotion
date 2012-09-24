@@ -1,22 +1,24 @@
-/***************Copyright 2012 Ajaykumar Kannan******************************
+/***************************************************************************
+Copyright 2012 Project Llama
+Copyright 2012 Ajakumar Kannan
 
-This file is part of Sense and Sanity.
+This file is part of PhoneMotion.
 
 Sense and Sanity is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-Sense and Sanity is distributed in the hope that it will be useful,
+Project Llama/PhoneMotion is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with Sense and Sanity.  If not, see <http://www.gnu.org/licenses/>.
+along with PhoneMotion.  If not, see <http://www.gnu.org/licenses/>.
  ****************************************************************************/
 
-package com.ajaykumar.sense;
+package tk.projectllama.PhoneMotion;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -116,12 +118,12 @@ public class SenseBckgnd extends Service implements SensorEventListener {
 
 		mNotificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
 		Notification not = new Notification(R.drawable.ic_launcher,
-				"Sense Service Started", System.currentTimeMillis());
+				"PhoneMotion Service Started", System.currentTimeMillis());
 		PendingIntent contentIntent = PendingIntent.getActivity(this, 0,
 				new Intent(this, SenseBckgnd.class),
 				Notification.FLAG_ONGOING_EVENT);
 		not.flags = Notification.FLAG_ONGOING_EVENT;
-		not.setLatestEventInfo(this, "Sense and Sanity",
+		not.setLatestEventInfo(this, "PhoneMotion",
 				"Speaker Service Running", contentIntent);
 		mNotificationManager.notify(1, not);
 
