@@ -1,0 +1,24 @@
+<!-- Project Llama Translation -->
+<!-- German (de) translation for PhoneMotion -->
+
+<!-- This file was translated originally by genusswurzel @ xda-developers -->
+<!-- Original commit by benjamingwynn @ 30/09/12 -->
+
+<resources>
+
+   <string name="app_name">PhoneMotion</string> 
+   <string name="menu_settings">Einstellungen</string> 
+   <string name="title_activity_main">PhoneMotion</string> 
+   <string name="start_string">Starte Service</string> 
+   <string name="stop_string">Stoppe Service</string> 
+   <string name="placeholder">Platzhalter</string> 
+   <string name="enableflip">Lautsprecher</string> 
+   <string name="debugdata">Debug Daten</string> 
+   <string name="options">Optionen</string> 
+   <string name="enablesilence">Lautlos</string> 
+   <string name="pickupstring">Fehler Beseitigung</string> 
+   <string name="speakerstring">Lautsprecher</string> 
+   <string name="headsetstring">Kopfhörer</string> 
+   <string name="volumestring">Lautstärke</string> 
+
+</resources>
