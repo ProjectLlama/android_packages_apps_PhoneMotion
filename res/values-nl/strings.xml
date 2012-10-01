@@ -1,0 +1,24 @@
+<!-- Project Llama Translation -->
+<!-- Nederlands (nl) translation for PhoneMotion -->
+
+<!-- This file was translated originally by Henry_01 @ xda-developers -->
+<!-- Original commit by benjamingwynn @ 01/10/12 -->
+
+<resources>
+
+    <string name="app_name">PhoneMotion</string>
+    <string name="menu_settings">Instellingen</string>
+    <string name="title_activity_main">PhoneMotion</string>
+    <string name="start_string">Service starten</string>
+    <string name="stop_string">Service stoppen</string>
+    <string name="placeholder">Geen functie</string>
+    <string name="enableflip">Omdraaien voor luidspreker</string>
+    <string name="debugdata">Debug data</string>
+    <string name="options">Opties</string>
+    <string name="enablesilence">Omdraaien voor stilte</string>
+    <string name="pickupstring">Opheffen om te antwoorden (experimenteel)</string>
+    <string name="speakerstring">Luispreker</string>
+    <string name="headsetstring">Hoofdtelefoon</string>
+    <string name="volumestring">Volume</string>
+
+</resources>
