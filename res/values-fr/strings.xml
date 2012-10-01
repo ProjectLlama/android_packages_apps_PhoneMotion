@@ -2,6 +2,7 @@
 <!-- French (fr) translation for PhoneMotion -->
 
 <!-- This file was translated originally by izi501 @ xda-developers -->
+<!-- Translations updated by TsarFlow @ xda-developers -->
 <!-- Original commit by benjamingwynn @ 30/09/12 -->
 
 <resources>
@@ -9,11 +10,12 @@
     <string name="menu_settings">Paramètres</string>
     <string name="start_string">Démarrer le Service</string>
     <string name="stop_string">Arrêter le Service</string>
-    <string name="enableflip">Tourner pour le haut-parleur</string> <!-- Translate 'Flip' into 'Tourner' isn't very good, but I didn't find better --> 
+    <string name="placeholder">Espace réservé</string>
+    <string name="enableflip">Mettre le haut-parleur</string>
     <string name="debugdata">Débuguer les données</string>
     <string name="options">Options</string>
     <string name="enablesilence">Tourner pour le mode Silencieux</string>
-    <string name="pickupstring">Sélectionnez pour répondre (expérimental)</string> <!-- I don't understand the feature -->
+    <string name="pickupstring">Sélectionner pour répondre (expérimental)</string>
     <string name="speakerstring">Haut-parleur</string>
     <string name="headsetstring">Casque</string>
     <string name="volumestring">Volume</string>
