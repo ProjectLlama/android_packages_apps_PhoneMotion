@@ -4,7 +4,7 @@ Copyright 2012 Ajakumar Kannan
 
 This file is part of PhoneMotion.
 
-Sense and Sanity is free software: you can redistribute it and/or modify
+PhoneMotion is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
@@ -50,12 +50,12 @@ public class CallReceiver extends BroadcastReceiver {
 			if (state.equals(TelephonyManager.EXTRA_STATE_OFFHOOK)
 					|| state.equals(TelephonyManager.EXTRA_STATE_RINGING)) {
 				Log.v("DEBUG", state);
-				service = new Intent(context, SenseBckgnd.class);
+				service = new Intent(context, PhoneMotionBckgnd.class);
 				service.putExtras(extras);
 				context.startService(service);
 			} else {
 				Log.v("DEBUG", state);
-				service = new Intent(context, SenseBckgnd.class);
+				service = new Intent(context, PhoneMotionBckgnd.class);
 				context.stopService(service);
 			}
 		}

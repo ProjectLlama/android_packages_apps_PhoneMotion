@@ -4,7 +4,7 @@ Copyright 2012 Ajakumar Kannan
 
 This file is part of PhoneMotion.
 
-Sense and Sanity is free software: you can redistribute it and/or modify
+PhoneMotion is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
@@ -40,7 +40,7 @@ import android.util.Log;
 import android.view.KeyEvent;
 import android.widget.Toast;
 
-public class SenseBckgnd extends Service implements SensorEventListener {
+public class PhoneMotionBckgnd extends Service implements SensorEventListener {
 	private int MAX = 100;
 
 	private boolean answered = false;
@@ -120,7 +120,7 @@ public class SenseBckgnd extends Service implements SensorEventListener {
 		Notification not = new Notification(R.drawable.ic_launcher,
 				"PhoneMotion Service Started", System.currentTimeMillis());
 		PendingIntent contentIntent = PendingIntent.getActivity(this, 0,
-				new Intent(this, SenseBckgnd.class),
+				new Intent(this, PhoneBckgnd.class),
 				Notification.FLAG_ONGOING_EVENT);
 		not.flags = Notification.FLAG_ONGOING_EVENT;
 		not.setLatestEventInfo(this, "PhoneMotion",
