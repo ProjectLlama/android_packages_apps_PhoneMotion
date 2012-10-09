@@ -120,7 +120,7 @@ public class PhoneMotionBckgnd extends Service implements SensorEventListener {
 		Notification not = new Notification(R.drawable.ic_launcher,
 				"PhoneMotion Service Started", System.currentTimeMillis());
 		PendingIntent contentIntent = PendingIntent.getActivity(this, 0,
-				new Intent(this, PhoneBckgnd.class),
+				new Intent(this, PhoneMotionBckgnd.class),
 				Notification.FLAG_ONGOING_EVENT);
 		not.flags = Notification.FLAG_ONGOING_EVENT;
 		not.setLatestEventInfo(this, "PhoneMotion",
