@@ -1,0 +1,18 @@
+<!-- Project Llama Translation -->
+<!-- Spanish (es) translation for PhoneMotion -->
+
+<!-- This file was translated originally by Feyerabend & OliverG96 @ xda-developers, with some modifications from Ivan's friend  -->
+<resources>
+
+   <string name="menu_settings">Ajustes</string>
+   <string name="start_string">Comenzar servicio</string>
+   <string name="stop_string">Detener servicio</string>
+   <string name="placeholder">Marcador de posición</string>
+   <string name="enableflip">Gira para activar el altavoz</string>
+   <string name="options">Opciones</string>
+   <string name="enablesilence">Girar para silenciar</string>
+   <string name="speakerstring">Altavoz</string>
+   <string name="headsetstring">Audífonos</string>
+   <string name="volumestring">Volumen</string>
+
+</resources>
