@@ -16,8 +16,8 @@
     <string name="debugdata">Debug data</string>
     <string name="options">Opties</string>
     <string name="enablesilence">Omdraaien voor stilte</string>
-    <string name="pickupstring">Opheffen om te antwoorden (experimenteel)</string>
-    <string name="speakerstring">Luispreker</string>
+    <string name="pickupstring">Automatisch opnemen (experimenteel)</string>
+    <string name="speakerstring">Luidspreker</string>
     <string name="headsetstring">Hoofdtelefoon</string>
     <string name="volumestring">Volume</string>
 
