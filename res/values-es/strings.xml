@@ -7,12 +7,12 @@
    <string name="menu_settings">Ajustes</string>
    <string name="start_string">Comenzar servicio</string>
    <string name="stop_string">Detener servicio</string>
-   <string name="placeholder">Marcador de posición</string>
+   <string name="placeholder">Marcador de posici&#243;n</string>
    <string name="enableflip">Gira para activar el altavoz</string>
    <string name="options">Opciones</string>
    <string name="enablesilence">Girar para silenciar</string>
    <string name="speakerstring">Altavoz</string>
-   <string name="headsetstring">Audífonos</string>
+   <string name="headsetstring">Aud&#237;fonos</string>
    <string name="volumestring">Volumen</string>
 
 </resources>
